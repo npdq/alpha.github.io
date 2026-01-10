@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>762.lol</title>
+    <title>762.lol / users</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             background-color: #000;
-            color: #fff;
-            font-family: 'Courier New', Courier, monospace;
             display: flex;
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+            color: #fff;
             padding: 40px 20px;
             box-sizing: border-box;
         }
@@ -39,7 +39,6 @@
         .nav a:hover {
             opacity: 0.8;
         }
-        /* Container wrapper for the card to ensure perfect centering and consistent width */
         .container {
             max-width: 700px;
             width: 100%;
@@ -47,47 +46,50 @@
             flex-direction: column;
             align-items: center;
         }
-        .card {
+        .users-card {
             background-color: rgba(20, 20, 20, 0.85);
             backdrop-filter: blur(10px);
             border-radius: 16px;
             padding: 30px;
-            width: 600px;              /* Fixed width matching the info page cards */
-            max-width: 100%;           /* Responsive on smaller screens */
+            width: 600px;
+            max-width: 100%;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
             box-sizing: border-box;
         }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            color: #aaa;
-            font-size: 0.95em;
+        .users-title {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            text-align: center;
         }
-        .username {
-            font-weight: bold;
-            color: #fff;
-            font-size: 1.1em;
-        }
-        .posts {
-            color: #888;
-        }
-        .message {
+        .inner-users-list {
             background-color: rgba(0, 0, 0, 0.4);
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 30px;
-            font-size: 1.05em;
-            line-height: 1.6;
-            color: #fff;
         }
-        .footer {
+        .users-list {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #777;
-            font-size: 0.95em;
+            flex-direction: column;
+            gap: 16px;
+            text-align: center;
+        }
+        .users-list a {
+            color: #0f0;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+        .users-list a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+        .separator {
+            border-top: 1px solid #333;
+            margin: 30px 0;
+        }
+        .total-users {
+            font-size: 1.1em;
+            color: #aaa;
+            text-align: center;
         }
     </style>
 </head>
@@ -95,7 +97,7 @@
     <!-- Logo -->
     <img src="https://files.catbox.moe/wzmxb4.png" alt="762.lol logo" class="logo">
 
-    <!-- Navigation Tabs -->
+    <!-- Navigation -->
     <div class="nav">
         <a href="/" class="active">home</a>
         <a href="/info">info</a>
@@ -103,23 +105,25 @@
         <a href="#">credits wall</a>
     </div>
 
-    <!-- Container for perfect alignment -->
     <div class="container">
-        <!-- Post Card -->
-        <div class="card">
-            <div class="header">
-                <div class="username">@argue</div>
-                <div class="posts">3 Posts</div>
+        <!-- Users List Card with darker inner section (matching home/info style) -->
+        <div class="users-card">
+            <div class="users-title">Official Paid Users</div>
+            
+            <!-- Darker inner card for the list -->
+            <div class="inner-users-list">
+                <div class="users-list">
+                    <a href="https://antipred.com/u/argue">@argue</a>
+                    <a href="https://antipred.com/u/npd">@npd</a>
+                    <a href="https://antipred.com/u/shinigami">@shinigami</a>
+                    <a href="https://antipred.com/u/kitty">@kitty</a>
+                    <!-- Add more users here as needed -->
+                </div>
             </div>
             
-            <div class="message">
-                hello everyone, and welcome to 762.lol, this is our official version of 762.lol go check out <br> <a href="antipred.com">info</a> for more information! thank you for visting our website, goodbye user!
-            </div>
+            <div class="separator"></div>
             
-            <div class="footer">
-                <div>Introduction</div>
-                <div>334</div>
-            </div>
+            <div class="total-users">Total Users: 5</div>
         </div>
     </div>
 </body>

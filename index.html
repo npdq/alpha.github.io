@@ -582,7 +582,8 @@
       { img: "./assets/icons/VAtuAVJFG3.png", label: "xed", type: "notepad" },
       { img: "./assets/icons/77Ai7oI52h.png", label: "kitty", type: "terminal" },
       { img: "./assets/icons/KU2GZgmQXz.png", label: "mpv", type: "music" },
-      { img: defaultProfilePic, label: "bio", type: "bio", dynamic: true }
+      { img: defaultProfilePic, label: "bio", type: "bio", dynamic: true },
+      { img: "./assets/icons/profile.svg", label: "profile", type: "link", href: "/argue" }
     ];
     function ensureTask(taskId, label, iconPath) {
       const bar = document.getElementById('tasks');
@@ -665,6 +666,7 @@
         else if (icon.type === 'terminal') wrap.onclick = toggleTerminal;
         else if (icon.type === 'music') wrap.onclick = toggleMusicPlayer;
         else if (icon.type === 'bio') wrap.onclick = toggleBio;
+        else if (icon.type === 'link') wrap.onclick = () => { window.location.href = icon.href; };
         iconsDiv.appendChild(node);
       });
       localStorage.setItem('desktop_icons', JSON.stringify(iconList));

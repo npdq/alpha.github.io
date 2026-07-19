@@ -1,0 +1,146 @@
+{
+  "username": "example",
+  "displayName": "example",
+  "uid": 42,
+  "title": "short one-liner under the name (optional)",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+  "bio": "longer bio text here.\nsupports line breaks via \\n",
+  "location": "Earth",
+  "views": 1234,
+  "badges": [
+    "owner",
+    "premium",
+    "verified",
+    { "icon": "og", "description": "custom description override" },
+    { "icon": "star", "label": "Custom Badge", "color": "#ff73fa" },
+    { "image": "https://example.com/custom-badge.png", "label": "Image Badge" }
+  ],
+  "_badgeNotes": "string badges use presets (icon+label+color+description built in). object form overrides any field. { image } makes a custom image badge. style.badgeColor = monochrome all badges, style.badgeSize = icon px.",
+  "_badgePresets": [
+    "owner", "staff", "helper", "premium", "verified", "og", "donor",
+    "gifter", "booster", "bughunter", "imagehost", "domainlegend",
+    "winner", "second", "third", "million", "early", "christmas",
+    "winter", "easter", "halloween", "birthday", "developer", "artist",
+    "gamer", "musician", "lucky", "partner", "marksman"
+  ],
+  "_availableBadgeIcons": [
+    "verified", "gem", "star", "heart", "crown", "sprout",
+    "staff", "helper", "donor", "gifter", "booster", "bug",
+    "trophy", "medal", "snowflake", "bolt", "rocket", "globe",
+    "compass", "shield", "bunny", "camera", "lock", "music",
+    "crosshair", "gamepad", "headphones", "code", "moon", "sun",
+    "cake", "flag", "key", "dice", "infinity", "anchor", "paw",
+    "wand", "alien", "ghost", "skull", "image", "cloud", "tree",
+    "egg", "like", "million", "fire", "eye"
+  ],
+  "background": {
+    "type": "video",
+    "src": "https://example.com/background.mp4"
+  },
+  "style": {
+    "accentColor": "#ffffff",
+    "textColor": "#ffffff",
+    "mutedColor": "rgba(255,255,255,0.65)",
+    "cardBackground": "rgba(20,20,20,0.45)",
+    "cardBorder": "rgba(255,255,255,0.1)",
+    "cardRadius": "20px",
+    "backgroundOverlay": "rgba(0,0,0,0.35)",
+    "blur": "14px",
+    "fontFamily": "'Montserrat', sans-serif",
+    "fontUrl": null,
+    "grayscale": false,
+    "nameEffect": "glow",
+    "_nameEffectOptions": ["glow", "rainbow", "gradient", "shine", null],
+    "nameGradient": ["#c9b8ff", "#ffffff"],
+    "avatarEffect": "ring",
+    "_avatarEffectOptions": ["ring", "glow", "pulse", null],
+    "avatarRingColors": ["#c9b8ff", "transparent"],
+    "cardGlow": true,
+    "cardBorderEffect": "gradient",
+    "cursor": null,
+    "_cursorNote": "image url for custom cursor, or css keyword like 'crosshair'"
+  },
+  "effects": {
+    "background": "snow",
+    "_backgroundOptions": ["snow", "rain", "stars", "embers", "particles", null],
+    "color": "#ffffff",
+    "count": 70,
+    "cursorTrail": false,
+    "cursorTrailColor": "#ffffff"
+  },
+  "discord": {
+    "userId": "1318734754073411614",
+    "_note": "live presence via lanyard.rest — user must be in the Lanyard discord server (discord.gg/lanyard). shows status dot + current activity/spotify. remove this block to disable."
+  },
+  "links": [
+    { "label": "my discord server", "type": "discord", "url": "https://discord.gg/example", "color": "#5865f2" },
+    { "label": "youtube channel", "type": "youtube", "url": "https://youtube.com/@example", "color": "#ff0000" },
+    { "label": "my website", "icon": "https://example.com/favicon.png", "url": "https://example.com" }
+  ],
+  "audio": {
+    "tracks": [
+      { "src": "https://example.com/song1.mp3", "title": "artist - track one" },
+      { "src": "https://example.com/song2.mp3", "title": "artist - track two" }
+    ],
+    "volume": 0.5
+  },
+  "_audioSingleTrack_alternative": {
+    "src": "https://example.com/song.mp3",
+    "title": "artist - song name",
+    "volume": 0.5
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "widgets": [
+    {
+      "type": "lastfm",
+      "service": "Last.fm",
+      "name": "evithered",
+      "icon": "https://example.com/lastfm-pfp.jpg",
+      "stats": ["68.2K Scrobbles", "1.2K Artists"],
+      "url": "https://last.fm/user/evithered",
+      "buttonText": "view profile"
+    },
+    {
+      "type": "roblox",
+      "service": "Roblox",
+      "name": "cosminbleh",
+      "icon": "https://example.com/roblox-pfp.png",
+      "stats": ["3.8K Followers", "12 Friends"],
+      "url": "https://roblox.com/users/0/profile"
+    },
+    {
+      "type": "github",
+      "service": "GitHub",
+      "name": "heistindustries",
+      "icon": "https://github.com/identicons/heistindustries.png",
+      "stats": ["11 Followers", "1 Repository"],
+      "url": "https://github.com/heistindustries"
+    }
+  ],
+  "socials": [
+    { "type": "discord",   "url": "https://discord.com/users/0" },
+    { "type": "instagram", "url": "https://instagram.com/example" },
+    { "type": "spotify",   "url": "https://open.spotify.com/user/example" },
+    { "type": "roblox",    "url": "https://roblox.com/users/0/profile" },
+    { "type": "github",    "url": "https://github.com/example" },
+    { "type": "youtube",   "url": "https://youtube.com/@example" },
+    { "type": "twitter",   "url": "https://x.com/example" },
+    { "type": "telegram",  "url": "https://t.me/example" },
+    { "type": "tiktok",    "url": "https://tiktok.com/@example" },
+    { "type": "pinterest", "url": "https://pinterest.com/example" },
+    { "type": "lastfm",    "url": "https://last.fm/user/example" },
+    { "type": "twitch",    "url": "https://twitch.tv/example" },
+    { "type": "soundcloud","url": "https://soundcloud.com/example" },
+    { "type": "snapchat",  "url": "https://snapchat.com/add/example" },
+    { "type": "reddit",    "url": "https://reddit.com/user/example" },
+    { "type": "steam",     "url": "https://steamcommunity.com/id/example" },
+    { "type": "kick",      "url": "https://kick.com/example" },
+    { "type": "facebook",  "url": "https://facebook.com/example" },
+    { "type": "bitcoin",   "url": "bitcoin:bc1q..." },
+    { "type": "email",     "url": "mailto:example@762.lol" },
+    { "type": "link",      "url": "https://example.com" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_note": "alo.ne-style full-page scroll profile. layout:'scroll' replaces the card with fullscreen scroll-snap sections. Section types: intro (avatar+name+badges), text (message), media (1-2 gifs/videos, staggered diagonally), socials.",
+  "username": "scroll",
+  "displayName": "(o_-)/",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/1.png",
+  "views": 559,
+  "badges": [
+    { "icon": "artist" }
+  ],
+  "layout": "scroll",
+  "sections": [
+    { "type": "intro" },
+    {
+      "type": "text",
+      "text": "Hello welcome to 762.lol. Please do not try to apply, you will not be accepted. Have a good day :3"
+    },
+    {
+      "type": "media",
+      "_note": "swap these for gif urls (e.g. /assets/gifs/one.gif) or mp4 clips — videos autoplay muted+looped",
+      "items": [
+        { "src": "/assets/gifs/attachment.gif" },
+        { "src": "/assets/gifs/1356e5ff229a2270742a7b83cac46e83.gif" }
+      ]
+    },
+    { "type": "socials" }
+  ],
+  "style": {
+    "accentColor": "#9a9a9a",
+    "textColor": "#cfcfcf",
+    "mutedColor": "rgba(200,200,200,0.55)",
+    "preserveCase": true,
+    "fontFamily": "'JetBrains Mono', monospace"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "audio": {
+    "tracks": [
+      { "src": "/assets/music/CQawPZxgmAqH.mp3", "title": "killbill n cap - Cap & Billy" }
+    ],
+    "volume": 0.4
+  },
+  "socials": [
+    { "type": "discord", "url": "https://discord.com/users/1505701914384535653" },
+    { "type": "telegram", "url": "https://t.me/mournhilll" },
+    { "type": "instagram", "url": "https://instagram.com/tmobilesupportagent" }
+  ]
+}

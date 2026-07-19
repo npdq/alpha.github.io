@@ -1,0 +1,79 @@
+{
+  "username": "nova",
+  "displayName": "nova",
+  "uid": 47,
+  "avatar": "",
+  "bio": "17 | designer, producer, lowkey addict",
+  "location": "Moscow",
+  "views": 12400,
+  "badges": [
+    { "icon": "gem", "label": "Premium", "description": "Supported 762.lol" },
+    { "icon": "booster", "label": "Server Booster" },
+    { "icon": "rocket", "label": "Early Adopter" },
+    { "icon": "heart", "label": "Supporter" },
+    { "icon": "snowflake", "label": "Winter 2025", "description": "Exclusive badge from the 2025 winter drop" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "accentColor": "#c9b8ff",
+    "textColor": "#f2ecff",
+    "mutedColor": "rgba(242,236,255,0.55)",
+    "nameSize": "44px",
+    "badgeLayout": "stacked",
+    "preserveCase": true,
+    "fontFamily": "'Space Grotesk', sans-serif",
+    "backgroundOverlay": "rgba(5,5,15,0.4)",
+    "nameEffect": "gradient",
+    "nameGradient": ["#c9b8ff", "#ffffff"]
+  },
+  "effects": {
+    "background": "snow",
+    "color": "#d8ccff",
+    "count": 60
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "audio": {
+    "tracks": [
+      { "src": "/assets/music/Hgejrgebgen.mp3", "title": "breezo - blowin out smoke" },
+      { "src": "/assets/music/Oerjgghjgef.mp3", "title": "slimegetem - like the kkk" },
+      { "src": "/assets/music/Kjnhtrewfhg.mp3", "title": "lil scoom - tweakers" }
+    ],
+    "volume": 0.4
+  },
+  "widgets": [
+    {
+      "type": "spotify",
+      "service": "Spotify",
+      "name": "novaaa",
+      "icon": "https://cdn.discordapp.com/embed/avatars/5.png",
+      "stats": ["247 Followers", "42 Playlists"],
+      "url": "https://open.spotify.com/user/novaaa",
+      "buttonText": "View Profile"
+    },
+    {
+      "type": "lastfm",
+      "service": "Last.fm",
+      "name": "nova_fm",
+      "icon": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "stats": ["38.7K Scrobbles", "894 Artists"],
+      "url": "https://last.fm/user/nova_fm",
+      "buttonText": "View Profile"
+    }
+  ],
+  "socials": [
+    { "type": "discord",   "url": "https://discord.com/users/0" },
+    { "type": "spotify",   "url": "https://open.spotify.com/user/novaaa" },
+    { "type": "instagram", "url": "https://instagram.com/nova" },
+    { "type": "telegram",  "url": "https://t.me/nova" },
+    { "type": "soundcloud","url": "https://soundcloud.com/nova" },
+    { "type": "lastfm",    "url": "https://last.fm/user/nova_fm" },
+    { "type": "link",      "url": "https://nova.lol" }
+  ]
+}

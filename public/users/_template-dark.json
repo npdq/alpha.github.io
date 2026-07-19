@@ -1,0 +1,68 @@
+{
+  "username": "example",
+  "displayName": "dark !",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/5.png",
+  "joinedDate": "2026-01-01",
+  "views": 520,
+  "badges": [
+    { "icon": "heart", "label": "Supporter" },
+    { "icon": "gem", "label": "Premium" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "headerLayout": "horizontal",
+    "avatarSize": "72px",
+    "nameSize": "32px",
+    "cardMaxWidth": "600px",
+    "accentColor": "#e84848",
+    "textColor": "#ffffff",
+    "mutedColor": "rgba(255,255,255,0.55)",
+    "preserveCase": true,
+    "backgroundOverlay": "rgba(0,0,0,0.55)",
+    "fontFamily": "'Poppins', sans-serif"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "audio": {
+    "tracks": [
+      { "src": "/assets/music/Ljhtjrgkrgger.mp3", "title": "lil scoom - too hot" },
+      { "src": "/assets/music/Kjnhtrewfhg.mp3", "title": "lil scoom - tweakers" }
+    ],
+    "volume": 0.4
+  },
+  "widgets": [
+    {
+      "type": "music",
+      "service": "Music",
+      "name": "dw7.",
+      "icon": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "stats": ["5% TINT", "by Travis Scott"],
+      "url": "https://open.spotify.com/track/example"
+    },
+    {
+      "type": "spotify",
+      "service": "Spotify",
+      "name": "Time Flies. · K4F",
+      "icon": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "stats": ["Money so big · Yeat"],
+      "url": "https://open.spotify.com/track/example",
+      "buttonText": "Preview"
+    }
+  ],
+  "socials": [
+    { "type": "discord",   "url": "https://discord.com/users/0" },
+    { "type": "spotify",   "url": "https://open.spotify.com/user/example" },
+    { "type": "twitter",   "url": "https://x.com/example" },
+    { "type": "instagram", "url": "https://instagram.com/example" },
+    { "type": "tiktok",    "url": "https://tiktok.com/@example" },
+    { "type": "telegram",  "url": "https://t.me/example" },
+    { "type": "lastfm",    "url": "https://last.fm/user/example" },
+    { "type": "link",      "url": "https://example.com" }
+  ]
+}

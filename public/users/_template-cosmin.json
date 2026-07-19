@@ -1,0 +1,78 @@
+{
+  "username": "example",
+  "displayName": "cosmin",
+  "uid": 116898,
+  "avatar": "",
+  "bio": [
+    "hello im cosmin i like funds $$",
+    "currently: ballin",
+    "my cat > your cat"
+  ],
+  "location": "Agartha",
+  "views": 962,
+  "badges": [
+    { "icon": "verified", "label": "Verified" },
+    { "icon": "sprout", "label": "New User" },
+    { "icon": "star", "label": "OG" },
+    { "icon": "heart", "label": "Supporter" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "accentColor": "#d6e4f0",
+    "textColor": "#e8eef5",
+    "mutedColor": "rgba(232,238,245,0.6)",
+    "nameSize": "38px",
+    "badgeLayout": "stacked",
+    "preserveCase": true,
+    "fontFamily": "'Inter', sans-serif",
+    "backgroundOverlay": "rgba(0,0,0,0.25)"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "audio": {
+    "src": "/assets/music/Jgtekergghr.mp3",
+    "title": "I'm a wanted man",
+    "volume": 0.5
+  },
+  "widgets": [
+    {
+      "type": "roblox",
+      "service": "Roblox",
+      "name": "cosminbleh",
+      "icon": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "stats": ["3.8K Followers", "12 Friends"],
+      "url": "https://roblox.com/users/0/profile",
+      "buttonText": "View Profile"
+    },
+    {
+      "type": "lastfm",
+      "service": "Last.fm",
+      "name": "csynholic",
+      "icon": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "stats": ["144.2K Scrobbles", "2.3K Artists"],
+      "url": "https://last.fm/user/csynholic",
+      "buttonText": "View Profile"
+    },
+    {
+      "type": "github",
+      "service": "GitHub",
+      "name": "heistindustries",
+      "icon": "https://github.com/identicons/heistindustries.png",
+      "stats": ["11 Followers", "1 Repository"],
+      "url": "https://github.com/heistindustries",
+      "buttonText": "View Profile"
+    }
+  ],
+  "socials": [
+    { "type": "discord",  "url": "https://discord.com/users/0" },
+    { "type": "telegram", "url": "https://t.me/example" },
+    { "type": "roblox",   "url": "https://roblox.com/users/0/profile" },
+    { "type": "link",     "url": "https://example.com" }
+  ]
+}

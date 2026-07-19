@@ -1,0 +1,32 @@
+{
+  "username": "example",
+  "displayName": "example",
+  "uid": 100,
+  "title": "web dev & designer",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/2.png",
+  "bio": "hello, im example. i make websites and stuff.",
+  "location": "somewhere",
+  "views": 825,
+  "badges": [
+    { "icon": "gem", "label": "Premium" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "accentColor": "#b8d4ff",
+    "cardBackground": "rgba(15,25,40,0.45)",
+    "fontFamily": "'JetBrains Mono', monospace"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "enter"
+  },
+  "socials": [
+    { "type": "discord", "url": "https://discord.com/users/0" },
+    { "type": "github", "url": "https://github.com/example" },
+    { "type": "lastfm", "url": "https://last.fm/user/example" },
+    { "type": "link", "url": "https://example.com" }
+  ]
+}

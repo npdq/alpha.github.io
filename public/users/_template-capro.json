@@ -1,0 +1,48 @@
+{
+  "username": "example",
+  "displayName": "CAPRO",
+  "title": "◆   ◆",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/2.png",
+  "joinedDate": "2025-11-01",
+  "views": 40,
+  "badges": [],
+  "bio": "1capro",
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "accentColor": "#f5a33b",
+    "textColor": "#ffd89a",
+    "mutedColor": "rgba(255,200,140,0.65)",
+    "nameSize": "48px",
+    "avatarSize": "96px",
+    "preserveCase": true,
+    "backgroundOverlay": "rgba(20,10,0,0.35)",
+    "fontFamily": "'Space Grotesk', sans-serif",
+    "cardGap": "10px"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "widgets": [
+    {
+      "type": "discord",
+      "service": "Discord",
+      "name": "1capro",
+      "icon": "https://cdn.discordapp.com/embed/avatars/1.png",
+      "stats": ["User is suspected for being clown"],
+      "url": "https://discord.com/users/0"
+    }
+  ],
+  "socials": [
+    { "type": "youtube",   "url": "https://youtube.com/@example" },
+    { "type": "discord",   "url": "https://discord.com/users/0" },
+    { "type": "spotify",   "url": "https://open.spotify.com/user/example" },
+    { "type": "tiktok",    "url": "https://tiktok.com/@example" },
+    { "type": "telegram",  "url": "https://t.me/example" },
+    { "type": "link",      "url": "https://example.com" }
+  ]
+}

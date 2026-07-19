@@ -1,0 +1,14 @@
+{
+  "username": "example",
+  "displayName": "example",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+  "bio": "hey, this is my bio",
+  "socials": [
+    { "type": "discord", "url": "https://discord.com/users/0" },
+    { "type": "instagram", "url": "https://instagram.com/example" }
+  ],
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  }
+}

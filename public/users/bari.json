@@ -1,0 +1,84 @@
+{
+  "username": "bari",
+  "displayName": "bari",
+  "uid": 23,
+  "title": "banging 4 pete",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/4.png",
+  "joinedDate": "2025-09-10",
+  "bio": "3175",
+  "location": "chiraq",
+  "views": 4827,
+  "badges": [
+    { "icon": "bug", "label": "Bug Hunter", "description": "Reported a bug to the 762.lol team" },
+    { "icon": "gem", "label": "Premium" },
+    { "icon": "bolt", "label": "Early Adopter" },
+    { "icon": "heart", "label": "Supporter" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "accentColor": "#ffffff",
+    "textColor": "#f0f0f0",
+    "mutedColor": "rgba(240,240,240,0.45)",
+    "nameSize": "54px",
+    "preserveCase": true,
+    "backgroundOverlay": "rgba(0,0,0,0.55)",
+    "fontFamily": "'Space Grotesk', sans-serif",
+    "typewriterSpeed": 55,
+    "typewriterDeleteSpeed": 28,
+    "typewriterPause": 2200,
+    "tiltAngle": 4,
+    "nameEffect": "shine"
+  },
+  "effects": {
+    "background": "rain",
+    "color": "#aab4c0",
+    "count": 100
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "enter if you dare"
+  },
+  "audio": {
+    "tracks": [
+      { "src": "/assets/music/Lhrgjewfdgs.mp3", "title": "lud foe - mask" },
+      { "src": "/assets/music/Kjnhtrewfhg.mp3", "title": "lil scoom - tweakers" },
+      { "src": "/assets/music/Oerjgghjgef.mp3", "title": "slimegetem - like the kkk" },
+      { "src": "/assets/music/Ljhtjrgkrgger.mp3", "title": "lil scoom - too hot" }
+    ],
+    "volume": 0.5
+  },
+  "widgets": [
+    {
+      "type": "instagram",
+      "service": "Instagram",
+      "name": "fuckturp",
+      "icon": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "stats": ["@fuckturp"],
+      "url": "https://instagram.com/user/fuckturp",
+      "buttonText": "View Profile"
+    },
+    {
+      "type": "github",
+      "service": "GitHub",
+      "name": "bari",
+      "icon": "https://github.com/identicons/bari.png",
+      "stats": ["47 Repositories", "128 Followers"],
+      "url": "https://github.com/bari",
+      "buttonText": "View Profile"
+    }
+  ],
+  "socials": [
+    { "type": "discord",    "url": "https://discord.com/users/0" },
+    { "type": "spotify",    "url": "https://open.spotify.com/user/bari" },
+    { "type": "github",     "url": "https://github.com/bari" },
+    { "type": "twitter",    "url": "https://x.com/bari" },
+    { "type": "telegram",   "url": "https://t.me/bari" },
+    { "type": "instagram",  "url": "https://instagram.com/user/fuckturp" },
+    { "type": "soundcloud", "url": "https://soundcloud.com/bari" },
+    { "type": "bitcoin",    "url": "bitcoin:bc1qexampleaddress" }
+  ]
+}

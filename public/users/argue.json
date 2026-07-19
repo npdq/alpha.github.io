@@ -1,0 +1,62 @@
+{
+  "username": "argue",
+  "displayName": "argue",
+  "uid": 1,
+  "title": "professional jewmaxer",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+  "bio": [
+    "tmobile support agent",
+    "professional jewmaxer",
+    "i love your pretty little body"
+  ],
+  "location": "chiraq",
+  "views": 762,
+  "badges": [
+    "owner",
+    "staff",
+    "verified",
+    { "icon": "og", "description": "One of the first 100 users" },
+    "marksman"
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "accentColor": "#ffffff",
+    "cardBackground": "rgba(20,20,20,0.35)",
+    "grayscale": true,
+    "fontFamily": "'Montserrat', sans-serif",
+    "nameEffect": "glow",
+    "avatarEffect": "ring",
+    "avatarRingColors": ["#ffffff", "transparent"],
+    "cardGlow": true
+  },
+  "effects": {
+    "background": "stars",
+    "color": "#ffffff",
+    "count": 80
+  },
+  "links": [
+    { "label": "join the 762.lol discord", "type": "discord", "url": "https://discord.gg/762lol", "color": "#5865f2" }
+  ],
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "audio": {
+    "tracks": [
+      { "src": "/assets/music/Jgtekergghr.mp3", "title": "killbill - take some" },
+      { "src": "/assets/music/Lhrgjewfdgs.mp3", "title": "lud foe - mask" },
+      { "src": "/assets/music/Cjhrtyverbdfr.mp3", "title": "chuckyy - album intro" },
+      { "src": "/assets/music/Adhretjhrtkg.mp3", "title": "bloodhound lil jeff - on my wrist ft vert" }
+    ],
+    "volume": 0.6
+  },
+  "socials": [
+    { "type": "discord", "url": "https://discord.com/users/1318734754073411614" },
+    { "type": "instagram", "url": "https://instagram.com/argue" },
+    { "type": "spotify", "url": "https://open.spotify.com/user/argue" },
+    { "type": "link", "url": "https://762.lol" }
+  ]
+}

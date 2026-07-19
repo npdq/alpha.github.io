@@ -1,0 +1,54 @@
+{
+  "username": "example",
+  "displayName": "endrosity",
+  "uid": 2847,
+  "title": "19",
+  "avatar": "https://cdn.discordapp.com/embed/avatars/1.png",
+  "bio": "scripter (ish), I like roblox, apex, minecraft, and a lot of other games ^^. I ALSO make roblox bypasses !",
+  "location": "my bed",
+  "views": 18,
+  "badges": [
+    { "icon": "sprout", "label": "New User" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardBackground": "rgba(10,10,10,0.55)",
+    "cardBorder": "rgba(255,255,255,0.06)",
+    "cardRadius": "18px",
+    "cardPadding": "28px 36px",
+    "cardMaxWidth": "720px",
+    "cardGap": "18px",
+    "avatarSize": "96px",
+    "nameSize": "30px",
+    "blur": "18px",
+    "headerLayout": "horizontal",
+    "preserveCase": true,
+    "fontFamily": "'Inter', sans-serif"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  },
+  "widgets": [
+    {
+      "type": "lastfm",
+      "service": "Last.fm",
+      "name": "evithered",
+      "icon": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "stats": ["68.2K Scrobbles", "1.2K Artists"],
+      "url": "https://last.fm/user/evithered",
+      "buttonText": "View Profile"
+    }
+  ],
+  "socials": [
+    { "type": "spotify",   "url": "https://open.spotify.com/user/example" },
+    { "type": "instagram", "url": "https://instagram.com/example" },
+    { "type": "roblox",    "url": "https://roblox.com/users/0/profile" },
+    { "type": "discord",   "url": "https://discord.com/users/0" },
+    { "type": "tiktok",    "url": "https://tiktok.com/@example" },
+    { "type": "snapchat",  "url": "https://snapchat.com/add/example" }
+  ]
+}

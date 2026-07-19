@@ -1,0 +1,32 @@
+{
+  "username": "example",
+  "displayName": "ak",
+  "title": "/amska|",
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23555' rx='50'/%3E%3Ccircle cx='50' cy='38' r='15' fill='%23aaa'/%3E%3Cpath d='M24 82c0-14.4 11.6-26 26-26s26 11.6 26 26v8H24z' fill='%23aaa'/%3E%3C/svg%3E",
+  "joinedDate": "2025-06-01",
+  "views": 187,
+  "badges": [
+    { "icon": "gem", "label": "Premium" },
+    { "icon": "star", "label": "OG" }
+  ],
+  "background": {
+    "type": "image",
+    "src": "/assets/wallpaper/JHTR745234G.jpg"
+  },
+  "style": {
+    "cardless": true,
+    "headerLayout": "horizontal",
+    "avatarSize": "44px",
+    "nameSize": "22px",
+    "cardMaxWidth": "320px",
+    "noAvatarBorder": true,
+    "preserveCase": true,
+    "grayscale": true,
+    "backgroundOverlay": "rgba(0,0,0,0.55)",
+    "mutedColor": "rgba(255,255,255,0.4)"
+  },
+  "enterSplash": {
+    "enabled": true,
+    "text": "click to enter"
+  }
+}
